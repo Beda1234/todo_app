@@ -1,0 +1,19 @@
+1. About -> This is a application for todo list using react and type script 
+2. Run the project ->To run this project we need to type npm run dev 
+dev bcz in package.json file in the script  "dev": "vite", this is present so dev 
+3. Create The project -> we need to go react.dev website 
+"https://react.dev/learn/start-a-new-react-project"
+then we need to choose create react project with out frame work from there we need to click on the vite 
+"from npm, set up your custom build process with a bundler like Vite or Parcel, "
+from there a new page will open "https://vitejs.dev/guide/" and from there we need to take one cmd like 
+"npm create vite@latest" need to paste that in terminal wherever need to create the  project then need to select react and typescript and then need to give a project name then we need to go inside the project and type a cmd like "npm start"
+then to run the project need to give the cmd inside the projct folder like "npm run dev" 
+4. .tsx files means we are using type scrpt here 
+5. Why we are using type script means this is more powrfull then java script this is giving features like  intellisense ,type checking etc..
+6. App.tsx - > it's the main component of our app where everything  starts  from  there all other components are imported 
+7. ts. file extentions usingin normal type script file  but when it comes to js file we use .jsx and here ww are using react thats why we need to use .tsx file extention
+8. In type script we must need to give type  of our variable that's why we use : before the name  of the varible like ex. Thats why we are saying this as a typescript
+For any variable we must need to give the varibale type or else it will throw the error
+const name:String  = 'John Doe'
+here const is used as keyword and it is not necessary to use but if we don't use then also it will work
+9. When we are working with recat router dom then we must need to use <BrowserRouter> in main class and inside the <BrowserRouter> we need collect all the app 
